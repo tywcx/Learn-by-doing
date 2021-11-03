@@ -55,6 +55,22 @@ Python程序是大小写敏感的！
 - True
 - False
 
+布尔表达式返回的True和False，不是字符串string
+
+**type( )**可以用来查询变量的格式：
+
+```
+print(type(True))
+print(type('True'))
+```
+
+=>
+<class 'bool'>
+<class 'str'>
+
+第一个是布尔表达式返回的True，不带引号；
+第二个是字符串string返回的格式str (string), 带引号。
+
 ## 常量
 
 常量名通常用大写。如PI
