@@ -57,7 +57,11 @@ phone.upper() — method   (function括号里面加上变量名)
 
 #### 格式操作符
 
-用百分号%表示，简单来说，就是用其它变量来替代某字符串的一部分 
+- %d —— 格式化整数
+- %g —— 格式化浮点数
+- %s —— 格式化字符串  
+
+- 百分号%对int这个数据格式而言，是模运算符； 但对字符串而言，%是格式操作符   
 
 ```
 name='bob'
@@ -74,20 +78,3 @@ my name is bob, you can say: estelle, is, a geniusbob has 2 apples and 2.5 orang
 ['estelle,', 'is,', 'a', 'genius'] ['estelle', ' is', ' a genius'] ['estelle', ' is, a genius'] ['estelle', ' is', ' a genius']
 adam#bob#cc adam&bob&cc
 ```
-
-
-
-看一个例子就懂了 
-<img src="https://github.com/YZHANG1270/Girls-In-AI/blob/master/others/pics/ml_diary/string/11.png?raw=true" width="50%" height="50%" />  
-
-对于下面一个例子而言，我有多少个苹果这个‘多少个’是可以随时切换随时被替代的，那我就用格式操作符号来表示。 一个完整的例子需要两个格式操作符，一个在字符串里（后面紧跟格式！待会讲），一个在字符串外（后面跟变量）  
-
-第一个字符串紧跟的格式是固定的
-
-- %d —— 格式化整数
-- %g—— 格式化浮点数（带小数部分）
-- %s —— 格式化字符串  <img src="https://github.com/YZHANG1270/Girls-In-AI/blob/master/others/pics/ml_diary/string/12.png?raw=true" width="80%" height="80%" />  
-
-- 百分号%对int这个数据格式而言，是模运算符； 但对字符串而言，%是格式操作符  
-
-这样的函数和方法还有很多，运用起来并不困难。 没用过或者没见过这些函数都没关系，只
