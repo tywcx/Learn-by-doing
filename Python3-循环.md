@@ -47,9 +47,7 @@ for i in pl:
 
 # while 循环
 
-## break & continue
-
-通常和if配合使用
+**break & continue：通常和if配合使用
 
 - break：退出while循环
 - continue：退出本次循环
@@ -69,20 +67,15 @@ print('out of while')
 ```
 
 
-ipput **input()返回的数据格式都是字符串！**
+input：**input()返回的数据格式都是字符串！**
+
+- #how are you      #满足条件1，continue
+- fine, 3Q, and you? #不满足两个if，直接print
+- #fine               #满足条件1，continue
+- stop                 #满足条件2，break，跳出while循环
 
 
-```
-#how are you      #满足条件1，continue
-fine, 3Q, and you? #不满足两个if，直接print
-#fine               #满足条件1，continue
-stop                 #满足条件2，break，跳出while循环
-```
-
-
-
-output
-
+output：
 
 ```
 #, in while
