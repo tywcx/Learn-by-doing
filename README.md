@@ -1,7 +1,7 @@
 # Learn-by-doing
 Coding is the new sexy.
 ## Python3-Diary
-* [MarkDown基本语法.md](# MarkDown基本语法.md)
+* [MarkDown基本语法.md](#jump)
 * 0. 初识Python
 * 1. Python3-数据类型
 * 2. Python3-字符串
