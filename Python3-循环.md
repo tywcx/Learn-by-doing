@@ -54,7 +54,8 @@ for i in pl:
 - break：退出while循环
 - continue：退出本次循环
 
-'''
+
+'''python
 while True:
     user_iput=input()
     if user_iput[0] == '#':    #条件1
