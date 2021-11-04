@@ -53,7 +53,7 @@ for i in pl:
 - continue：退出本次循环
 
 
-'''python
+```python
 while True:
     user_iput=input()
     if user_iput[0] == '#':    #条件1
@@ -68,12 +68,12 @@ print('out of while')
 
 
 input：**input()返回的数据格式都是字符串！**
-
-- #how are you      #满足条件1，continue
-- fine, 3Q, and you? #不满足两个if，直接print
-- #fine               #满足条件1，continue
-- stop                 #满足条件2，break，跳出while循环
-
+```
+#how are you      #满足条件1，continue
+fine, 3Q, and you? #不满足两个if，直接print
+#fine               #满足条件1，continue
+stop                 #满足条件2，break，跳出while循环
+```
 
 output：
 
