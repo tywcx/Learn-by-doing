@@ -44,3 +44,42 @@ for i in pl:
 # bb
 # cc
 ```
+
+# while 循环
+
+#### break & continue
+
+通常和if配合使用
+
+- break：退出while循环
+- continue：退出本次循环
+
+'''
+while True:
+    user_iput=input()
+    if user_iput[0] == '#':    #条件1
+        print('#, in while')
+        continue
+    if user_iput == 'stop':    #条件2
+        print('wanna stop')
+        break
+    print(user_iput)           
+print('out of while')
+```
+ipput **input()返回的数据格式都是字符串！**
+```
+#how are you      #满足条件1，continue
+fine, 3Q, and you? #不满足两个if，直接print
+#fine               #满足条件1，continue
+stop                 #满足条件2，break，跳出while循环
+```
+
+output
+```
+#, in while
+fine, 3Q, and you?
+#, in while
+wanna stop
+out of while
+```
+
