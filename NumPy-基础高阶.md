@@ -99,3 +99,47 @@ A与B的点积为:
 dot()函数可以通过numpy库调用，也可以由数组实例对象进行调用=>a.dot(b) 与 np.dot(a,b)结果相同
 
 矩阵积计算不遵循交换律：np.dot(a,b) 和 np.dot(b,a) 结果不同
+
+```python
+a = np.array([[1,2,3], [4,5,6]], dtype=np.float64) # we can specify dtype
+b = np.array([[7,8], [9,10], [11, 12]], dtype=np.float64)
+print (a.dot(b))
+
+#output
+#[[ 58.  64.]
+# [139. 154.]]
+```
+
+## Sum across a dimension 维度求和
+
+```python
+x = np.array([[1,2],[3,4]])
+print (x)
+print ("sum all: ", np.sum(x)) # adds all elements
+print ("sum by col: ", np.sum(x, axis=0)) # add numbers in each column
+print ("sum by row: ", np.sum(x, axis=1)) # add numbers in each row
+
+#output
+#[[1 2]
+# [3 4]]
+#sum all:  10
+#sum by col:  [4 6]
+#sum by row:  [3 7]
+```
+
+## Transposing 转置
+
+```python
+x = np.array([[1,2],[3,4]])
+print ("x:\n", x)
+print ("x.T:\n", x.T)
+```
+
+```
+x:
+ [[1 2]
+ [3 4]]
+x.T:
+ [[1 3]
+ [2 4]]
+```
