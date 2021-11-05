@@ -24,3 +24,4 @@ Coding is the new sexy.
 ## 初识NumPy
 * [NumPy-基础知识](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
 * [NumPy-基础进阶](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E5%9F%BA%E7%A1%80%E8%BF%9B%E9%98%B6.md)
+* [NumPy-基础高阶](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E5%9F%BA%E7%A1%80%E9%AB%98%E9%98%B6.md)
