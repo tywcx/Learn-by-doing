@@ -21,3 +21,6 @@ Coding is the new sexy.
 * [数据类型 DataFrame](https://github.com/tywcx/Learn-by-doing/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-DataFrame.md)
 
 
+## 初识NumPy
+* [NumPy-基础知识](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
+* [NumPy-基础进阶](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E5%9F%BA%E7%A1%80%E8%BF%9B%E9%98%B6.md)
