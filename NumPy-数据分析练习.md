@@ -113,3 +113,19 @@ print('arr:',arr,'\n','res:',res)
 ```
 #### 补充知识: [索引进阶](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E7%B4%A2%E5%BC%95%E8%BF%9B%E9%98%B6.md)
 
+#### 7. 改变数组的形状
+
+```python
+# 将一维数组转换为2行的2维数组
+
+import numpy as np
+a = np.arange(10)
+print(a)
+# print(a.reshape(2,5))
+print(a.reshape(2,-1)) # Setting to -1 automatically decides the number of cols
+
+#output
+#[0 1 2 3 4 5 6 7 8 9]
+#[[0 1 2 3 4]
+# [5 6 7 8 9]]
+```
