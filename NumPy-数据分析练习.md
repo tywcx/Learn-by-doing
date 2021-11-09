@@ -111,5 +111,5 @@ print('arr:',arr,'\n','res:',res)
 #arr: [0 1 2 3 4 5 6 7 8 9] 
 #res: [ 0 -1  2 -1  4 -1  6 -1  8 -1]
 ```
-#### 补充知识: [Where 函数]()
+#### 补充知识: [索引进阶](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E7%B4%A2%E5%BC%95%E8%BF%9B%E9%98%B6.md)
 
