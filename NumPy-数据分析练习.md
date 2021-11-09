@@ -207,4 +207,60 @@ print(array)
 [ 0.   2.5  5.   7.5 10. ]
 ```
 
+##### 从Python列表转换
 
+除了使用Numpy函数外(```array=np.arange(1,4)```)，
+
+- 还可以直接从Python列表创建数组。将Python列表传递给数组函数以创建Numpy数组:
+
+```python
+import numpy as np
+array = np.array([1,2,3])
+print(array)
+
+#output
+#[1 2 3]
+```
+
+- 还可以创建Python列表并传递其变量名以创建Numpy数组:
+
+```python
+import numpy as np
+list = [1,2,3]
+array = np.array(list)
+print('list:',list,'\n''array:',array)
+print(type(list),'\n',type(array))
+
+#output
+#list: [1, 2, 3] 
+#array: [1 2 3]
+#<class 'list'> 
+#<class 'numpy.ndarray'>
+```
+
+- 要创建二维数组，将一系列列表传递给数组函数:
+
+```python
+import numpy as np
+import numpy as np
+array = np.array([(1,2,3), (4,5,6)])
+print(array)
+
+#output
+#[[1 2 3]
+# [4 5 6]]
+```
+
+##### 使用特殊的库函数
+
+使用特殊库函数来创建数组:例如，使用random函数, 创建一个填充0到1之间随机值的数组
+
+```python
+import numpy as np
+array = np.random.random((2,2))
+print(array)
+
+#output
+#[[0.47574346 0.74475097]
+# [0.93992066 0.49781633]]
+```
