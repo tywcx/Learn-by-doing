@@ -129,3 +129,61 @@ print(a.reshape(2,-1)) # Setting to -1 automatically decides the number of cols
 #[[0 1 2 3 4]
 # [5 6 7 8 9]]
 ```
+
+#### 8. 垂直叠加两个数组
+
+```python
+# 垂直堆叠数组a和数组b (行拼接)
+
+import numpy as np
+ 
+a = np.arange(10).reshape(2,-1)
+b = np.repeat(1, 10).reshape(2,-1)
+print(a)
+print(b)
+print('M1:',np.concatenate((a, b))) # Method 1
+print('M2:',np.r_[a, b])  # Method 2
+print('M3:',np.append(a, b, axis=0))  # Method 3
+print('M4:',np.vstack((a, b)))  # Method 4
+
+#output
+#[[0 1 2 3 4]     # a
+# [5 6 7 8 9]]
+
+#[[1 1 1 1 1]   # b
+# [1 1 1 1 1]]
+
+#[[0 1 2 3 4]   # M1-M4 
+# [5 6 7 8 9]
+# [1 1 1 1 1]
+# [1 1 1 1 1]]
+```
+
+#### 9. 水平叠加两个数组
+
+```python
+# 将数组a和数组b水平堆叠 (列拼接)
+
+import numpy as np
+ 
+m = np.arange(10).reshape(2,-1)
+n = np.repeat(1, 10).reshape(2,-1)
+print(m)
+print(n)
+print('M1:',np.append(m, n, axis=1))
+print('M2:',np.c_[m, n])
+print('M3:',np.concatenate((m, n), axis=1))
+print('M4:',np.hstack((m, n)))
+
+#output
+#[[0 1 2 3 4]     # a
+# [5 6 7 8 9]]
+
+#[[1 1 1 1 1]   # b
+# [1 1 1 1 1]]
+  
+#[[0 1 2 3 4 1 1 1 1 1] # M1-M4 
+#  [5 6 7 8 9 1 1 1 1 1]]
+```
+
+#### 补充知识: [拼接Numpy数组的不同方式](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E6%8B%BC%E6%8E%A5Numpy%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8D%E5%90%8C%E6%96%B9%E5%BC%8F.md)
