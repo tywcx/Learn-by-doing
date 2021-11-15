@@ -30,5 +30,5 @@ Coding is the new sexy.
 
 ## 补充知识NumPy
 * [创建 Numpy 数组的不同方式](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E5%88%9B%E5%BB%BANumpy%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8D%E5%90%8C%E6%96%B9%E5%BC%8F.md)
+* [索引进阶](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E7%B4%A2%E5%BC%95%E8%BF%9B%E9%98%B6.md)
 * [对Numpy数组元素的复制操作](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E5%AF%B9Numpy%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E7%9A%84%E5%A4%8D%E5%88%B6%E6%93%8D%E4%BD%9C.md)
-* 
