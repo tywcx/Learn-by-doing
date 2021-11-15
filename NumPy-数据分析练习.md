@@ -187,3 +187,23 @@ print('M4:',np.hstack((m, n)))
 ```
 
 #### 补充知识: [拼接Numpy数组的不同方式](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E6%8B%BC%E6%8E%A5Numpy%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8D%E5%90%8C%E6%96%B9%E5%BC%8F.md)
+
+
+#### 10.在无硬编码的情况下生成numpy中的自定义序列
+
+```python
+# 创建以下模式而不使用硬编码。只使用numpy函数和下面的输入数组a
+
+import numpy as np
+
+a=np.array([1,2,3])
+
+print('M1:',np.r_[np.repeat(a,3), np.tile(a,3)])  # Method 1
+print('M2:',np.append(np.repeat(a,3), np.tile(a,3), axis=0))  # Method 2
+
+#output
+#[1 1 1 2 2 2 3 3 3 1 2 3 1 2 3 1 2 3]
+```
+
+#### 补充知识: [对Numpy数组元素的复制操作](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E5%AF%B9Numpy%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E7%9A%84%E5%A4%8D%E5%88%B6%E6%93%8D%E4%BD%9C.md)
+
