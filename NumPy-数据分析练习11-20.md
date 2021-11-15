@@ -29,3 +29,44 @@ print(np.setdiff1d(a,b))# From 'a' remove all of 'b'
 ```
 
 #### 补充知识: [NumPy 数组的集合运算 1d](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E6%95%B0%E7%BB%84%E7%9A%84%E9%9B%86%E5%90%88%E8%BF%90%E7%AE%97-1d.md)
+
+#### 13.得到两个数组元素匹配的位置
+
+使用**where**函数，返回的是索引位置
+
+```python
+# 获取a和b元素匹配的位置
+
+**import numpy as np
+a = np.array([1,2,3,4,5])
+b = np.array([5,6,7,8,9])
+print(np.setdiff1d(a,b))# From 'a' remove all of 'b'**
+# >>> (array([1, 3, 5, 7]),)
+```
+
+#### 补充知识: [Numpy 索引进阶](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E7%B4%A2%E5%BC%95%E8%BF%9B%E9%98%B6.md)
+
+#### 14.从numpy数组中提取给定范围内的所有数字
+
+使用**where**函数，返回的是索引位置; 使用`a[np.where(condition)]`返回的是数组元素
+
+```python
+# 获取a和b元素匹配的位置
+import numpy as np
+a = np.array([2, 6, 1, 9, 10, 3, 27])
+print(a[np.where((a>=5) & (a<=10))])
+# >>> [ 6  9 10]
+
+# Method 2:
+index = np.where(np.logical_and(a>=5, a<=10))
+print(a[index])
+# >>> [ 6  9 10]
+
+# Method 3: 
+print(a[(a >= 5) & (a <= 10)])
+# >>> [ 6  9 10]
+
+```
+
+#### 补充知识: [np.where和np.logical_and/or/not](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-where%E5%92%8Clogical%E5%87%BD%E6%95%B0.md)
+
