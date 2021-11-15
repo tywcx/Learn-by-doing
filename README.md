@@ -34,3 +34,4 @@ Coding is the new sexy.
 * [Numpy 索引进阶](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E7%B4%A2%E5%BC%95%E8%BF%9B%E9%98%B6.md)
 * [对Numpy数组元素的复制操作](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E5%AF%B9Numpy%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E7%9A%84%E5%A4%8D%E5%88%B6%E6%93%8D%E4%BD%9C.md)
 * [NumPy 数组的集合运算 1d](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-%E6%95%B0%E7%BB%84%E7%9A%84%E9%9B%86%E5%90%88%E8%BF%90%E7%AE%97-1d.md)
+* [NumPy-where和logical函数](https://github.com/tywcx/Learn-by-doing/blob/main/NumPy-where%E5%92%8Clogical%E5%87%BD%E6%95%B0.md)
