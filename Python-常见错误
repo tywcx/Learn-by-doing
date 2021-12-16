@@ -1,0 +1,12 @@
+1.当在3个双引号中间输入空格的时候，会报错!
+
+应该这样写"""而不是" " ",即每两个双引号之间不能有空格。
+
+'''
+print """
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+"""
+‘’‘
